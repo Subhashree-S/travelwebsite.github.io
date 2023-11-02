@@ -1,0 +1,312 @@
+.frontpage {
+    background-image: url("https://images.unsplash.com/photo-1615880480595-f5f9b4fb530e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRyYXZlbCUyMHBsYWNlcyUyMCUyMGlzbGFuZHN8ZW58MHwwfDB8fHww");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    /* height: 100ev; */
+}
+
+.navbar {
+    min-height: ;
+    display: flex;
+}
+
+.title {
+    font-size: 35px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+.navbar ul {
+    margin-left: 760px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.center {
+    margin-top: 180px;
+
+}
+
+.discount {
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.discount span {
+    font-weight: bold;
+}
+
+.members {
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.subscribe {
+    text-align: center;
+    border: 20px;
+
+}
+
+.subscribe i {}
+
+.subscribe input {
+    border-radius: 20px;
+    padding: 12px;
+    margin: 10px;
+    padding-right: 600px;
+    border: none;
+}
+
+.bye {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* ......work...... */
+.title2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+
+.grid img {
+    width: 412px;
+    border-radius: 5px;
+}
+.grid p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.grid p span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trip {
+    text-align: center;
+}
+
+.trip button {
+    border-radius: 6px;
+    padding: 12px;
+    margin: 30px;
+    font-size: 15px;
+    background-color: rgba(62, 195, 195, 0.873);
+    border: none;
+    color: white;
+}
+
+.trip button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* ......destination...... */
+.title3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image img{
+    border-radius: 5px;
+    margin: 20px;
+    position: relative;
+}
+.image p{
+    position: absolute;
+    margin: 20px;
+    margin-top: -140px;
+    margin-left: 45px;
+    font-size: 30px;
+    color: white;
+}
+.image p span{
+    font-size: 45px;
+    font-style: italic;
+}
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    /* grid-template-rows: repeat(2, 100px); */
+    /* grid-gap: 50px; */
+/* } */
+
+/* .box {
+    text-align: center;
+    width: 100%;
+} */
+
+/* ......feature...... */
+.feature{
+    background-color: rgb(232, 252, 246);
+}
+.container2{
+   display: flex;
+   margin: 30px;
+}
+.row1{
+    flex-basis: 35%;
+}
+.row1 img{
+    border-radius: 20px;
+    margin: 60px;
+    margin-top: 100px;
+}
+.row2{
+    flex-basis: 60%;
+    margin: 60px;
+}
+.head1{
+    font-size: 18px;
+    color: rgb(246, 117, 70);
+    font-weight: bold;
+}
+.head2{
+   font-size: 65px;
+   font-weight: bold;
+}
+.p{
+    font-size: 18px;
+    color: rgb(84, 83, 83);
+}
+.button{
+    margin-left: -30px;
+}
+
+.button button {
+    border-radius: 6px;
+    padding: 12px;
+    margin: 30px;
+    font-size: 15px;
+    background-color: rgba(62, 195, 195, 0.873);
+    border: none;
+    color: white;
+}
+
+.button button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* ......last page...... */
+.container4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.lastPage {
+    margin-top: 10px;
+}
+
+.line1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.line2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+.btn{
+    text-align: center;
+}
+.btn button {
+    border-radius: 6px;
+    padding: 12px;
+    margin: 40px;
+    font-size: 15px;
+    background-color: rgba(62, 195, 195, 0.873);
+    border: none;
+    color: white;
+}
+
+.btn button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* ......footer...... */
+.footer {
+    /* display: flex; */
+    background-color: rgb(210, 208, 208);
+
+}
+
+.container1 {
+    /* text-align: center; */
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 185px;
+}
+
+.footer ul {
+    margin: 20px;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+}
+
+.footer ul li span {
+    font-weight: bold;
+    color: black;
+}
+.footer2{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.h1{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 320px;
+}
+.h2{
+    font-size: 15px;
+    margin-left: 430px;
+}
